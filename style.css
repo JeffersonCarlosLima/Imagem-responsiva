@@ -42,6 +42,7 @@
 .icones-social:hover {
     width: 32px;
     height: 32px;
+    transition: 1s;
 }
 footer{
     position: absolute;
