@@ -17,7 +17,7 @@
 .imagem:hover {
     width: 510px;
     height: 510px;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .social {
