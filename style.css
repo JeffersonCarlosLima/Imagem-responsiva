@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.imagem {
+    margin-top: 16px;
+    width: 500px;
+    height: 500px;
+    border-radius: 11px;
+}
+
+.imagem:hover {
+    width: 510px;
+    height: 510px;
+    transition: 1s;
+}
+
+@media screen and ( max-width: 720px) {
+    .imagem {
+        width: 380px;
+        height: 380px;
+    }
+    .imagem:hover {
+        width: 400px;
+        height: 400px;
+        transition: 1s;
+    }
+}
+
+@media screen and ( max-width: 320px) {
+    .imagem {
+        width: 300px;
+        height: 300px;
+    }
+    .imagem:hover {
+        width: 320px;
+        height: 320px;
+        transition: 1s;
+    }
+}
